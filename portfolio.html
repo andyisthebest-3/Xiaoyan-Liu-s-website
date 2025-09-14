@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Xiaoyan Liu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Xiaoyan Liu's Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-4" style="background: linear-gradient(45deg, #007bff, #6c757d); color: white;">
+        <h1>Portfolio</h1>
+        <p>Explore my recent projects and creative works.</p>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/work1-3.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Project 1</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/work2-2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Project 2</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/work3-1.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Project 3</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Project 1 Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/work1-1.png" class="img-fluid mb-3" alt="Project 1 Image 1">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/work1-2.png" class="img-fluid mb-3" alt="Project 1 Image 2">
+                        </div>
+                    </div>
+                    <p>This is the HLD (High-Level Design) I made in the CCT270: Game Design Principles class. This is an adventure game called Finnie and Shelly. The main purpose of this game is to call on people to protect the ocean through games. When conceiving this game, I first did a market research to see how many games of the same type or with similar ideas to this game are there. Secondly, I conducted a small-scale random interview in the school and asked people about their love for marine ecological protection, their love for games, and their interest in the game I designed. After completing it, I created a persona to help me refine and adjust the details of the game: Wang, 11 years old this year, his parents are outstanding environmentalists. Wang's family lives by the sea, so Wang is very interested in marine life. Wang likes to play games, and his parents also support him. This persona helped me complete a lot of game design and adjustments. Finally, I presented the Game Pitch in class and this HLD received the love and support of many virtual investors (classmates).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Project 2 Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/work2-1.png" class="img-fluid mb-3" alt="Project 2 Image 1">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/work2-3.png" class="img-fluid mb-3" alt="Project 2 Image 2">
+                        </div>
+                    </div>
+                    <p>This is a multimedia assignment I made in CCT431: AI, Robots, and Drones. This assignment requires us to choose other media forms besides PPT to critically speculate and think about the future of artificial intelligence, robots, and humans. I chose to use INKY and DreamWeaver to make an interactive novel that can be placed on a web page. The novel is called Dreamville, and it tells the story of a man's consciousness trapped in a virtual world. Before making this project, I only had some basic knowledge of the Java language, so I taught myself the Java knowledge required for the project. At the same time, I also read relevant materials and other science fiction works in and out of class to improve and enhance my work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Project 3 Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/work3-2.png" class="img-fluid mb-3" alt="Project 3 Image 1">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/work3-3.png" class="img-fluid mb-3" alt="Project 3 Image 2">
+                        </div>
+                    </div>
+                    <p>This is a live broadcast assignment that I completed with three teammates in CCT334: History and Theory of Game Production. This assignment required us to broadcast a game live on Twitch. My role was host and director. I made the live broadcast page shown in the picture, wrote the script for our live broadcast and summarized the results of the live broadcast. This taught me a lot and also improved my ability to adapt to changing situations and my ability to give speeches.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3">
+        <p>© 2024 Xiaoyan Liu | Follow me on 
+            <a href="https://www.linkedin.com/in/xiaoyan-liu-697b682a3" target="_blank">
+                <img src="images/linkedin-icon.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+            </a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
